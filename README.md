@@ -1,2 +1,2 @@
 # LAMP-STACK
-for Steghub Project 1
+For Steghub Project 1
