@@ -52,13 +52,16 @@ To replicate this project, follow the steps below:
 sudo apt install mysql-server -y
 ````
 
-
 4. **Install PHP**
-````
-sudo apt install php libapache2-mod-php php-mysql -y
-```
+```` sudo apt install php libapache2-mod-php php-mysql -y ```
 
-### Design Choices & Problem-Solving.
+5. **Configure Virtual Host**
+- Create a directory for your website and configure the virtual host in Apache to point to the directory.
+
+6. **Test Your Setup**
+- Open your server’s public IP address in a browser to verify that Apache is serving your content.
+
+# Design Choices & Problem-Solving.
 The main goal was to ensure the LAMP stack was set up in a secure and efficient manner. Throughout the project, I focused on security by:
 
 Setting up firewall rules to allow only necessary traffic (HTTP and SSH).
