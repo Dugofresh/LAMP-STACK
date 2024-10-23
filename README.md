@@ -1,3 +1,4 @@
+
 # LAMP Stack Implementation on AWS
 
 This project showcases the complete implementation of a LAMP (Linux, Apache, MySQL, PHP) stack on an AWS EC2 instance. The project was completed as part of a self-study to understand and deploy web servers in cloud environments. By following these steps, you'll be able to replicate the LAMP stack on your own AWS instance and understand key concepts in server setup, database integration, and virtual hosting.
